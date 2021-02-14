@@ -60,9 +60,9 @@ class Update:
             "w", newline=""
         ) as file:
             writer = csv.writer(file)
-            writer.writerow([d.replace('\r\n', '\\n') for d in data[0]])
+            writer.writerow(data[0])
             for row in data[1]:
-                writer.writerow([r.replace('\r\n', '\\n') for r in row])
+                writer.writerow(row)
 
 
 def main():

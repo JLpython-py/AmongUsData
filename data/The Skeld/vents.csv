@@ -1,21 +1,15 @@
 Name,Connections
-Admin,"Cafeteria
-O2"
-Cafeteria,"Admin
-O2"
-Electrical,"MedBay
-Security"
-Hallway,"Admin
-Cafeteria"
+Admin,Cafeteria\nO2
+Cafeteria,Admin\nO2
+Electrical,MedBay\nSecurity
+Hallway,Admin\nCafeteria
 Lower Engine,Reactor(S)
-MedBay,"Electrical
-Security"
+MedBay,Electrical\nSecurity
 Navigation(N),Weapons
 Navigation(S),Shields
 Reactor(N),Upper Engine
 Reactor(S),Lower Engine
-Security,"Electrical
-MedBay"
+Security,Electrical\nMedBay
 Shields,Navigation(S)
 Upper Engine,Reactor(N)
 Weapons,Navigation(N)

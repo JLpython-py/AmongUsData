@@ -1,86 +1,15 @@
 Name,Connections,Vents,Tasks,Actions
-Admin,"Greenouse
-Hallway
-Office","Cafeteria
-Greenhouse
-Office","Chart Course
-Divert Power(2/2)
-Enter ID Code
-Prime Shields",View Admin Map
-Balcony,Cafeteria,"Cafeteria
-MedBay","Clear Asteroids
-Measure Weather",None
-Cafeteria,"Balcony
-Hallway
-Storage","Admin
-Balcony","Buy Beverage
-Divert Power(2/2)
-Empty Garbage",Call Emergency Meeting
-Communications,"Hallway
-Launchpad
-Locker Room
-MedBay",None,Divert Power(2/2),"Check Sensors
-Fix Communications Sabotage(1/2)"
-Decontamination,"Laboratory
-Locker Room
-Reactor","Laboratory
-Locker Room
-Reactor",None,None
-Greenhouse,"Admin
-Office
-Hallway","Admin
-Office","Clean O2 Filter
-Divert Power
-Fix Wiring
-Water Plants",Fix O2 Depletion
-Hallway,"Admin
-Cafeteria
-Communications
-Greenhouse
-Launchpad
-Locker Room
-MedBay
-Office",None,Fix Wiring,"North Sensor
-Southeast Sensor
-Southwest Sensor"
-Laboratory,"Decontamination
-Reactor","Decontamination
-Office
-Reactor","Assemble Artifact
-Divert Power
-Sort Samples",None
-Launchpad,"Communications
-Hallway
-Locker Room
-MedBay","Locker Room
-Reactor","Divert Power(2/2)
-Fuel Engines
-Run Diagnostics",Fix O2 Depletion
-Locker Room,"Communications
-Decontamination
-Hallway
-Launchpad
-MedBay","Decontamination
-Launchpad
-MedBay",Fix Wiring,None
-MedBay,"Communications
-Hallway
-Launchpad
-Locker Room","Balcony
-Locker Room","Divert Power
-Submit Scan",None
-Office,"Admim
-Greenhouse
-Hallway","Admin
-Greenhouse
-Laboratory",Process Data,"Fix Communications Sabotage(2/2)
-Fix Lights"
-Reactor,"Decontamination
-Laboratory","Decontamination
-Laboratory
-Launchpad","Divert Power
-Start Reactor
-Unlock Manifolds","Fix Reactor Meltdown(1/2)
-Fix Reactor Meltdown(2/2)"
-Storage,Cafeteria,None,"Fix Wiring
-Water Plants(1/2)",None
+Admin,Greenouse\nHallway\nOffice,Cafeteria\nGreenhouse\nOffice,Chart Course\nDivert Power(2/2)\nEnter ID Code\nPrime Shields,View Admin Map
+Balcony,Cafeteria,Cafeteria\nMedBay,Clear Asteroids\nMeasure Weather,None
+Cafeteria,Balcony\nHallway\nStorage,Admin\nBalcony,Buy Beverage\nDivert Power(2/2)\nEmpty Garbage,Call Emergency Meeting
+Communications,Hallway\nLaunchpad\nLocker Room\nMedBay,None,Divert Power(2/2),Check Sensors\nFix Communications Sabotage(1/2)
+Decontamination,Laboratory\nLocker Room\nReactor,Laboratory\nLocker Room\nReactor,None,None
+Greenhouse,Admin\nOffice\nHallway,Admin\nOffice,Clean O2 Filter\nDivert Power\nFix Wiring\nWater Plants,Fix O2 Depletion
+Hallway,Admin\nCafeteria\nCommunications\nGreenhouse\nLaunchpad\nLocker Room\nMedBay\nOffice,None,Fix Wiring,North Sensor\nSoutheast Sensor\nSouthwest Sensor
+Laboratory,Decontamination\nReactor,Decontamination\nOffice\nReactor,Assemble Artifact\nDivert Power\nSort Samples,None
+Launchpad,Communications\nHallway\nLocker Room\nMedBay,Locker Room\nReactor,Divert Power(2/2)\nFuel Engines\nRun Diagnostics,Fix O2 Depletion
+Locker Room,Communications\nDecontamination\nHallway\nLaunchpad\nMedBay,Decontamination\nLaunchpad\nMedBay,Fix Wiring,None
+MedBay,Communications\nHallway\nLaunchpad\nLocker Room,Balcony\nLocker Room,Divert Power\nSubmit Scan,None
+Office,Admim\nGreenhouse\nHallway,Admin\nGreenhouse\nLaboratory,Process Data,Fix Communications Sabotage(2/2)\nFix Lights
+Reactor,Decontamination\nLaboratory,Decontamination\nLaboratory\nLaunchpad,Divert Power\nStart Reactor\nUnlock Manifolds,Fix Reactor Meltdown(1/2)\nFix Reactor Meltdown(2/2)
+Storage,Cafeteria,None,Fix Wiring\nWater Plants(1/2),None

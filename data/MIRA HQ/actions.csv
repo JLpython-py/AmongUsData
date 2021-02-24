@@ -1,7 +1,8 @@
 Name,Type,Locations,Severity
-View Admin Map,Surveillance,Admin,N/A
+Call Emergency Meeting,N/A,Meeting Room,N/A
 Check Sensors,Surveillance,Communications,N/A
 Fix Communications Sabotage,Fix Sabotage,Communications\nOffice,Major
 Fix Lights,Fix Sabotage,Office,Major
 Fix O2 Depletion,Fix Sabotage,Greenhouse\nLaunchpad,Fatal
 Fix Reactor Meltdown,Fix Sabotage,Reactor(E)\nReactor(W),Fatal
+View Admin Map,Surveillance,Admin,N/A

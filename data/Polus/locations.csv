@@ -17,6 +17,6 @@ Outside(S),Communications\nOffice\nOutside(C/SW)\nWeapons,Admin\nLaboratory\nOus
 Outside(SW),Communications\nO2\nOutside(W),None,Fix Weather Node,None
 Outside(W),Outside(C/SW),Electrical\nO2,Fix Weather Node(1/2),None
 Security,Electrical\nO2,None,Fix Wiring(1/3),Check Security Cameras
-Storage,Outside(C),Communications\nOffice,"Fuel Engine(1/4, 3/4)",None
 Specimen Room,Decontamination(N)\nDecontamination(S),None,Sort Artifacts\nStart Reactor\nUnlock Manifolds\nUpload Data(1/2),None
+Storage,Outside(C),Communications\nOffice,"Fuel Engine(1/4, 3/4)",None
 Weapons,Outside(S),None,Clear Asteroids\nUpload Data(1/2),None

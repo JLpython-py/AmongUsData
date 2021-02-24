@@ -6,9 +6,14 @@ Update CSV data based on data in Among_Us_Bot database tables
 """
 
 import csv
+import logging
 import os
 import sqlite3
 
+logging.basicConfig(
+    level=logging.INFO,
+    format=" %(asctime)s - %(levelname)s - %(message)s"
+)
 
 DIRECTORY = os.path.join(
     os.path.expanduser("~"), "PythonScripts", "Among_Us_Bot",
@@ -45,6 +50,7 @@ class Update:
         )
 
     def execute_query(self, table):
+        logging.info(table)
         query = f"""
         SELECT *
         FROM {table}
@@ -52,7 +58,7 @@ class Update:
         self.cursor.execute(query)
         columns = [d[0].title() for d in self.cursor.description]
         data = self.cursor.fetchall()
-        return columns, data
+        return columns, sorted(data)
 
     def write(self, filename, data):
         with open(
@@ -68,6 +74,7 @@ class Update:
 def main():
     databases = os.listdir(DIRECTORY)
     for mapdb in databases:
+        logging.info(mapdb)
         db_update = Update(mapdb)
         db_update.connection.close()
 

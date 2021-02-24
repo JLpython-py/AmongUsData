@@ -1,5 +1,5 @@
 Name,Type,Locations,Severity
-Call Emergency Meeting,N/A,Meeting Room,N/A
+Call Emergency Meeting,N/A,Cafeteria,N/A
 Check Sensors,Surveillance,Communications,N/A
 Fix Communications Sabotage,Fix Sabotage,Communications\nOffice,Major
 Fix Lights,Fix Sabotage,Office,Major

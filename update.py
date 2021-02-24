@@ -75,8 +75,11 @@ def main():
     databases = os.listdir(DIRECTORY)
     for mapdb in databases:
         logging.info(mapdb)
-        db_update = Update(mapdb)
-        db_update.connection.close()
+        try:
+            db_update = Update(mapdb)
+            db_update.connection.close()
+        except FileNotFoundError as err:
+            logging.info("Error in process: %s", err)
 
 
 if __name__ == '__main__':

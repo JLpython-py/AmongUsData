@@ -1,0 +1,22 @@
+Name,Connections,Vents,Tasks,Actions
+Armory,Communications\nKitchen,None,Divert Power (2/2)\nPut Away Pistols\nPut Away Rifles\nUpload Data (1/2),None
+Brig,Engine Room\nGap Room\nVault,None,Upload Data (1/2),None
+Cargo Bay,Lounge\nMedical\nShowers\nVentilation,Showers,"Fix Wiring\nFuel Engines (1/4, 3/4)\nUnlock Safe\nUpload Data (1/2)",None
+Cockpit,Communications,None,Divert Power(2/2)\nStabilize Steering\nUpload Data (1/2),View Admin Map
+Communications,Armory\nCockpit\nEngine Room,None,Upload Data (1/2),None
+Electrical,Main Hall\nMedical\nSecurity,None,Calibrate Distributor\nDivert Power (1/2)\nReset Breakers,None
+Engine Room,Brig\nCommunications\nMain Hall,Kitchen\nMain Hall(S),"Divert Power (2/2)\nFuel Engine (2/4, 4/4)\nUpload Data (1/2)",None
+Gap Room(E),Gap Room(W)\nRecords,None,Divert Power (2/2)\nUpload Data (1/2),Avert Crash Course(2/2)
+Gap Room(W),Brig\nGap Room(E)\nMeeting Room,None,None,Avert Crash Course(1/2)
+Hall of Portraits,Kitchen\nSecurity,None,None,None
+Kitchen,Armory\nHall of Portraits\nViewing Deck,Engine Room\nMain Hall(S),Empty Garbage (1/2),None
+Lounge,Cargo Bay\nRecords,None,Clean Toilet\nFix Wiring,None
+Main Hall,Electrical\nEngine Room\nShowers,Engine Room\nKitchen,Decontaminate\nDevelop Photos\nEmpty Garbage (1/3)\nFix Wiring,None
+Medical,Cargo Bay\nElectrical,None,Empty Garbage (1/2),None
+Meeting Room,Gap Room,None,Divert Power (2/2)\nEmpty Garbage (2/2)\nEnter ID Code\nFix Wiring,Call Emergency Meeting
+Records,Gap Room\nLounge\nShowers,Cargo Bay\nShowers,Sort Records\nUpload Data (1/2),None
+Security,Electrical\nHall of Portraits,None,Rewind Tapes\nUpload Data (2/2),Check Security Cameras
+Showers,Cargo Bay\nMain Hall\nRecords\nVentilation,Cargo Bay,Divert Power (2/2),None
+Vault,Brig,None,Dress Mannequin\nPolish Ruby\nUpload Data (1/2),None
+Ventilation(E),Cargo Bay\nShowers,None,Start Fans,None
+Viewing Deck,Kitchen,None,Fix Wiring\nUpload Data (1/2)\nUpload Data (2/2),None

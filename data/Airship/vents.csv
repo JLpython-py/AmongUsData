@@ -1,0 +1,12 @@
+Name,Connections
+Cargo Bay,Showers
+Cockpit,None
+Engine Room,Kitchen\nMain Hall(S)
+Gap Room(E),None
+Gap Room(W),None
+Kitchen,Engine Room\nMain Hall(S)
+Main Hall(N),None
+Main Hall(S),Engine Room\nKitchen
+Records,Cargo Bay\nShowers
+Showers,Cargo Bay
+Vault,None

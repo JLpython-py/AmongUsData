@@ -1,0 +1,7 @@
+Name,Type,Locations,Severity
+Avert Crash Course,Fix Sabotage,Gap Room(E)\nGap Room(W),Fatal
+Call Emergency Meeting,N/A,Meeting Room,N/A
+Check Security Cameras,Surveillance,Security,N/A
+Fix Communications Sabotage,Fix Sabotage,Communications,Major
+Fix Lights,Fix Sabotage,Cargo Bay\nGap Room(E)\nViewing Deck,Major
+View Admin Map,Surveillance,Cockpit,N/A
